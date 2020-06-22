@@ -72,11 +72,11 @@ int extraJumps;
     if (isGrounded == true)
     {
     rb2d.velocity = new Vector2(rb2d.velocity.x, jumpForce);
-    } else {VVV
+    } else {
     rb2d.velocity = new Vector2(rb2d.velocity.x, jumpForce);
     extraJumps--;
-    Debug.Log(extraJumps);
     }
+
     }
     }
     }
